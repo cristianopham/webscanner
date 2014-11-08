@@ -1,0 +1,2 @@
+"No","Category","PluginName","Severity","Location","FullLocation","Message"
+"001","Cross-Site Scripting","Grep: Cross Site Scripting via concatenation from source in PHP","Critical",":2","","echo str_replace("<script>", "", $_GET['message']);"
